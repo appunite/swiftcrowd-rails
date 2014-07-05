@@ -29,7 +29,7 @@ class Api::V1::UserController < Api::BaseController
   
   private
   def user_params
-    params.require(:user).permit(:name, :uuid, :avatar, :birthdate, :twitter, :facebook, :github, :website)
+    params.require(:user).permit(:name, :avatar, :birthdate, :twitter, :facebook, :github, :website)
   end
   
   def show

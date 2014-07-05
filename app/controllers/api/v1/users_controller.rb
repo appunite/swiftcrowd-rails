@@ -1,7 +1,7 @@
 class Api::V1::UsersController < Api::BaseController
 
   def index
-    @users = User.where(uuid: params[:uuids])
+    @users = User.where(id: params[:uuids])
   end
 
 end
