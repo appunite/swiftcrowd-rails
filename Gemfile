@@ -33,7 +33,7 @@ gem 'spring',        group: :development
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'capistrano-rails', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
@@ -51,3 +51,5 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise', github: 'plataformatec/devise'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'jquery-ui-rails'
+gem 'carrierwave'
