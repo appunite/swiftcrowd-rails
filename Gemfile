@@ -54,4 +54,5 @@ gem 'tzinfo-data'
 gem 'validates_formatting_of'
 gem 'jquery-ui-rails'
 gem 'carrierwave'
+gem 'passenger'
 
