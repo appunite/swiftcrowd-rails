@@ -1,2 +1,1 @@
-json.(user, :id, :name, :birthdate, :uuid)
-json.avatar_url user.image.url
+json.users @users, { partial: 'api/v1/users/user', as: :user }
