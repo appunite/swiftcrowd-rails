@@ -5,4 +5,4 @@ json.website user.website if user.website
 json.facebook user.facebook if user.facebook
 json.github user.github if user.github
 json.birthdate user.birthdate if user.birthdate
-json.uuid user.id
+json.minor user.id
