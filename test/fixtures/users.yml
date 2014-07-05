@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  birthdate: 2014-07-05 12:34:29
+  uuid: MyString
+  image: MyText
+
+two:
+  name: MyText
+  birthdate: 2014-07-05 12:34:29
+  uuid: MyString
+  image: MyText
