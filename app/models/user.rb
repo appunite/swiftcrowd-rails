@@ -1,7 +1,6 @@
 class User < ActiveRecord::Base
 
   # validations
-  validates :uuid, presence: true, uniqueness: true
   validates :name, presence: true
 
   # callbacks
