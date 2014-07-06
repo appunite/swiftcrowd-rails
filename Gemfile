@@ -40,6 +40,7 @@ gem 'capistrano-rvm'
 # gem 'debugger', group: [:development, :test]
 
 gem 'bundler'
+gem 'twitter'
 
 group :development do
   gem 'better_errors'

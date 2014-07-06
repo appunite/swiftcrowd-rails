@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users, only: [:index]
       resource :user, only: [:show, :update, :create], controller: :user
+      resource :token, only: [:create], controller: :token
     end
   end
   
